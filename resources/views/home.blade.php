@@ -4,12 +4,17 @@
 
 @section('content')
 
-<h1>Home</h1>
+<div class="hero">
+    <h1>Welcome to My Portfolio</h1>
 
-<h2>Halo, saya Klarissa!</h2>
+    <p>
+        Halo! Saya adalah mahasiswa yang sedang belajar
+        pengembangan aplikasi dan web menggunakan Laravel.
+    </p>
 
-<p>
-    Selamat datang di website portofolio saya.
-</p>
+    <a href="{{ route('projects.index') }}" class="btn btn-primary">
+        Lihat Project
+    </a>
+</div>
 
 @endsection

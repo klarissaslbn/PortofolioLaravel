@@ -6,14 +6,12 @@
 
 <h1>Education</h1>
 
-<h2>Universitas Gadjah Mada</h2>
+<div class="card">
+    <h2>Universitas Gadjah Mada</h2>
 
-<p>
-    Program Studi Teknologi Rekayasa Perangkat Lunak
-</p>
-
-<p>
-    2025 - Sekarang
-</p>
+    <p>
+        Teknologi Rekayasa Perangkat Lunak
+    </p>
+</div>
 
 @endsection
